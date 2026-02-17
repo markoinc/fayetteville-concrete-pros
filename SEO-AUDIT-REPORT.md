@@ -81,11 +81,43 @@ CSS Variables (from css/styles.css):
 
 ---
 
-## 📊 GSC Access Issue
+## 📊 GSC Performance Data (Last 30 Days)
 
-GSC returned 403 - permission denied for `sc-domain:fayettevilleconcrete-pros.com`. 
+**Overall:** 7 clicks | 373 impressions | Avg Position: 24.9
 
-**Action Required:** Verify domain ownership in GSC and add mark@kuriosbrand.com as owner/user.
+### Top Performing Queries
+
+| Query | Clicks | Impressions | Position | Action |
+|-------|--------|-------------|----------|--------|
+| concrete contractors fayetteville | 1 | 7 | **2.0** | ✅ Great - maintain |
+| concrete driveway installers near me | 1 | 1 | **2.0** | ✅ Great - maintain |
+| fayetteville concrete contractors | 1 | 110 | 6.3 | 🎯 Optimize to top 3 |
+| concrete companies near me | 1 | 61 | 6.9 | 🎯 Optimize to top 5 |
+| driveway extension near me | 1 | 11 | 10.0 | 📈 Content opportunity |
+
+### Keyword Opportunities (High Impressions, Position 5-20)
+
+| Query | Impressions | Position | Recommendation |
+|-------|-------------|----------|----------------|
+| fayetteville concrete contractors | 110 | 6.3 | Add exact match in H1/content |
+| concrete companies near me | 61 | 6.9 | Strengthen homepage optimization |
+| asphalt companies near me | 34 | 33.2 | Create comparison content |
+
+### Top Pages Performance
+
+| Page | Clicks | Impressions | Position |
+|------|--------|-------------|----------|
+| Homepage | 23 | 3,384 | 24.9 |
+| Concrete Slabs | 0 | 1,457 | 37.0 |
+| Driveways | 0 | 711 | 53.8 |
+| Patios | 1 | 320 | 34.3 |
+| Stamped | 0 | 123 | 36.5 |
+
+### Priority Actions
+1. **Homepage:** Already ranking well - focus on CTR improvement
+2. **Slabs Page:** High impressions (1,457) but poor position (37) - needs content optimization
+3. **Driveways Page:** Position 53.8 - needs significant content/backlink work
+4. **Patios Page:** Best CTR among service pages - replicate approach
 
 ---
 
