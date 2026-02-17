@@ -12,8 +12,44 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fayettevilleconcretepros.com/contact/">
   
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" href="../images/logo.png">
+  
+  <!-- Schema.org LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://fayettevilleconcretepros.com/#business",
+    "name": "Fayetteville Concrete Pros",
+    "image": "https://fayettevilleconcretepros.com/images/logo.png",
+    "telephone": "(910) 996-0343",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "227 Summertime Rd",
+      "addressLocality": "Fayetteville",
+      "addressRegion": "NC",
+      "postalCode": "28303",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.0527,
+      "longitude": -78.8784
+    },
+    "url": "https://fayettevilleconcretepros.com/contact/",
+    "priceRange": "$$",
+    "openingHours": ["Mo-Fr 07:00-18:00", "Sa 08:00-16:00"],
+    "areaServed": ["Fayetteville", "Fort Liberty", "Spring Lake", "Hope Mills", "Cumberland County"],
+    "sameAs": ["https://maps.app.goo.gl/1QY2um7n3wJZ9bdS7"]
+  }
+  </script>
 </head>
 <body>
   <!-- Top Bar -->
@@ -56,6 +92,11 @@
     <div class="hero-content">
       <h1>Contact Us</h1>
       <p>Get a free estimate for your concrete project in Fayetteville</p>
+      <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+        <span style="background: rgba(255,255,255,0.15); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem;">✓ Licensed & Insured</span>
+        <span style="background: rgba(255,255,255,0.15); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem;">✓ 40+ Years Experience</span>
+        <span style="background: rgba(255,255,255,0.15); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem;">✓ Free Estimates</span>
+      </div>
     </div>
   </section>
 
@@ -159,7 +200,9 @@
         <ul>
           <li><a href="../">Fayetteville Concrete Pros</a></li>
           <li><a href="tel:9109960343">(910) 996-0343</a></li>
-          <li>Fayetteville, NC</li>
+          <li>227 Summertime Rd</li>
+          <li>Fayetteville, NC 28303</li>
+          <li><a href="https://maps.app.goo.gl/1QY2um7n3wJZ9bdS7" target="_blank" rel="noopener">📍 Get Directions</a></li>
         </ul>
       </div>
     </div>
@@ -170,10 +213,58 @@
     </div>
   </footer>
 
+  <!-- Sticky Mobile CTA -->
+  <div class="sticky-mobile-cta">
+    <a href="tel:9109960343">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Tap to Call: (910) 996-0343
+    </a>
+  </div>
+
+  <!-- Exit Intent Popup -->
+  <div class="exit-popup" id="exitPopup">
+    <div class="exit-popup-content">
+      <button class="exit-popup-close" id="closePopup">&times;</button>
+      <h3>Wait! Don't Leave Yet</h3>
+      <p>Get a <strong>FREE estimate</strong> for your concrete project. We'll beat any written quote!</p>
+      <a href="tel:9109960343" class="exit-popup-cta">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        Call Now: (910) 996-0343
+      </a>
+    </div>
+  </div>
+
   <script>
     document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
       document.querySelector('nav ul').classList.toggle('active');
     });
+
+    // Exit intent popup
+    let exitShown = false;
+    document.addEventListener('mouseout', function(e) {
+      if (e.clientY < 0 && !exitShown && window.innerWidth > 768) {
+        document.getElementById('exitPopup').classList.add('active');
+        exitShown = true;
+      }
+    });
+
+    document.getElementById('closePopup').addEventListener('click', function() {
+      document.getElementById('exitPopup').classList.remove('active');
+    });
+
+    document.getElementById('exitPopup').addEventListener('click', function(e) {
+      if (e.target === this) {
+        this.classList.remove('active');
+      }
+    });
   </script>
+<!-- Sticky Mobile CTA -->
+  <div class="sticky-mobile-cta">
+    <a href="tel:9109960343">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Tap to Call: (910) 996-0343
+    </a>
+  </div>
+
 </body>
 </html>

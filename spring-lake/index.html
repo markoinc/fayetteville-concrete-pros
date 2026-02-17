@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spring Lake Concrete Contractors | Driveways, Patios, Slabs | Fayetteville Concrete Pros</title>
-  <meta name="description" content="Professional concrete services in Spring Lake, NC. Driveways, patios, slabs & foundations. Serving Spring Lake and Fort Liberty area. Call (910) 996-0343 for free estimate.">
+  <title>Spring Lake Concrete Contractors | Driveways & Patios</title>
+  <meta name="description" content="Concrete services in Spring Lake, NC. Driveways, patios, slabs. Serving Fort Liberty area. Call (910) 996-0343.">
   <meta name="keywords" content="concrete contractors Spring Lake NC, concrete driveway Spring Lake, concrete patio Spring Lake, Fort Liberty concrete">
   <link rel="canonical" href="https://fayettevilleconcretepros.com/spring-lake/">
   
@@ -13,14 +13,21 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fayettevilleconcretepros.com/spring-lake/">
   
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
   <link rel="icon" type="image/png" href="../images/logo.png">
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Fayetteville Concrete Pros - Spring Lake",
+    "@id": "https://fayettevilleconcretepros.com/#business",
+    "name": "Fayetteville Concrete Pros",
     "image": "https://fayettevilleconcretepros.com/images/logo.png",
     "telephone": "(910) 996-0343",
     "address": {
@@ -31,13 +38,20 @@
       "postalCode": "28303",
       "addressCountry": "US"
     },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.0527,
+      "longitude": -78.8784
+    },
     "areaServed": {
       "@type": "City",
       "name": "Spring Lake",
       "containedIn": "Cumberland County, NC"
     },
     "url": "https://fayettevilleconcretepros.com/spring-lake/",
-    "priceRange": "$$"
+    "priceRange": "$$",
+    "openingHours": ["Mo-Fr 07:00-18:00", "Sa 08:00-16:00"],
+    "sameAs": ["https://maps.app.goo.gl/1QY2um7n3wJZ9bdS7"]
   }
   </script>
 </head>
@@ -111,6 +125,24 @@
     </div>
   </section>
 
+  <!-- Form Section -->
+  <section style="padding: 60px 0; background: #f8fafc;">
+    <div class="container" style="max-width: 600px;">
+      <div style="background: white; padding: 35px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <h2 style="text-align: center; margin-bottom: 5px;">Get Your Free Spring Lake Quote</h2>
+        <p style="text-align: center; color: #6b7280; margin-bottom: 20px;">No obligation • Response within 24 hours</p>
+        <iframe 
+          src="https://api.leadconnectorhq.com/widget/survey/vJVbvvOJhx5Jz2THwfpZ" 
+          style="border:none; width:100%; min-height:400px;" 
+          scrolling="no" 
+          id="ghl-quote-form" 
+          title="Free Quote Survey">
+        </iframe>
+        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+      </div>
+    </div>
+  </section>
+
   <section class="cta">
     <div class="container">
       <h2>Spring Lake Concrete Experts</h2>
@@ -145,11 +177,58 @@
         <h4>Contact</h4>
         <p>227 Summertime Rd<br>Fayetteville, NC 28303</p>
         <p><a href="tel:9109960343">(910) 996-0343</a></p>
+        <p><a href="https://maps.app.goo.gl/1QY2um7n3wJZ9bdS7" target="_blank" rel="noopener">📍 Get Directions</a></p>
       </div>
     </div>
     <div class="footer-bottom">
       <p>&copy; 2024 Fayetteville Concrete Pros. All rights reserved.</p>
+      <div>
+        <a href="https://www.termsfeed.com/live/f324c283-f453-4731-8cf9-2a55086126e6" target="_blank" rel="noopener">Terms and Conditions</a>
+        <a href="https://www.termsfeed.com/live/1ce8df68-e0fd-401b-98d3-dfdab93bacc6" target="_blank" rel="noopener">Privacy Policy</a>
+      </div>
     </div>
   </footer>
+
+  <script>
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
+      document.querySelector('nav ul').classList.toggle('active');
+    });
+  </script>
+<!-- Sticky Mobile CTA -->
+  <div class="sticky-mobile-cta">
+    <a href="tel:9109960343">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      Tap to Call: (910) 996-0343
+    </a>
+  </div>
+
+  <!-- Exit Intent Popup -->
+  <div class="exit-popup" id="exitPopup">
+    <div class="exit-popup-content">
+      <button class="exit-popup-close" id="closePopup">&times;</button>
+      <h3>Wait! Don't Leave Yet</h3>
+      <p>Get a <strong>FREE estimate</strong> for your concrete project!</p>
+      <a href="tel:9109960343" class="exit-popup-cta">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        Call Now: (910) 996-0343
+      </a>
+    </div>
+  </div>
+
+  <script>
+    let exitShown = false;
+    document.addEventListener('mouseout', function(e) {
+      if (e.clientY < 0 && !exitShown && window.innerWidth > 768) {
+        document.getElementById('exitPopup').classList.add('active');
+        exitShown = true;
+      }
+    });
+    document.getElementById('closePopup').addEventListener('click', function() {
+      document.getElementById('exitPopup').classList.remove('active');
+    });
+    document.getElementById('exitPopup').addEventListener('click', function(e) {
+      if (e.target === this) this.classList.remove('active');
+    });
+  </script>
 </body>
 </html>
