@@ -1,0 +1,667 @@
+[
+  {
+    "name": "Hope Mills",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 5,
+    "population": 17821
+  },
+  {
+    "name": "Stedman",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 8,
+    "population": 1280
+  },
+  {
+    "name": "Eastover",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 10,
+    "population": 3658
+  },
+  {
+    "name": "Spring Lake",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 10,
+    "population": 11650
+  },
+  {
+    "name": "Fort Liberty",
+    "type": "cdp",
+    "county": "Cumberland",
+    "distance_miles": 10,
+    "population": 29183
+  },
+  {
+    "name": "Wade",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 12,
+    "population": 636
+  },
+  {
+    "name": "Godwin",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 15,
+    "population": 154
+  },
+  {
+    "name": "Rockfish",
+    "type": "cdp",
+    "county": "Hoke",
+    "distance_miles": 15,
+    "population": 500
+  },
+  {
+    "name": "Anderson Creek",
+    "type": "cdp",
+    "county": "Harnett",
+    "distance_miles": 15,
+    "population": 13636
+  },
+  {
+    "name": "Spout Springs",
+    "type": "cdp",
+    "county": "Harnett",
+    "distance_miles": 16,
+    "population": 2500
+  },
+  {
+    "name": "Falcon",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 18,
+    "population": 325
+  },
+  {
+    "name": "Bunnlevel",
+    "type": "cdp",
+    "county": "Harnett",
+    "distance_miles": 18,
+    "population": 516
+  },
+  {
+    "name": "Erwin",
+    "type": "town",
+    "county": "Harnett",
+    "distance_miles": 18,
+    "population": 5202
+  },
+  {
+    "name": "Ashley Heights",
+    "type": "cdp",
+    "county": "Hoke",
+    "distance_miles": 18,
+    "population": 301
+  },
+  {
+    "name": "Five Points",
+    "type": "cdp",
+    "county": "Hoke",
+    "distance_miles": 18,
+    "population": 961
+  },
+  {
+    "name": "Linden",
+    "type": "town",
+    "county": "Cumberland",
+    "distance_miles": 20,
+    "population": 136
+  },
+  {
+    "name": "Raeford",
+    "type": "city",
+    "county": "Hoke",
+    "distance_miles": 20,
+    "population": 4532
+  },
+  {
+    "name": "Lillington",
+    "type": "town",
+    "county": "Harnett",
+    "distance_miles": 20,
+    "population": 3634
+  },
+  {
+    "name": "Parkton",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 20,
+    "population": 498
+  },
+  {
+    "name": "Mamers",
+    "type": "cdp",
+    "county": "Harnett",
+    "distance_miles": 20,
+    "population": 814
+  },
+  {
+    "name": "Bowmore",
+    "type": "cdp",
+    "county": "Hoke",
+    "distance_miles": 22,
+    "population": 76
+  },
+  {
+    "name": "Lumber Bridge",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 22,
+    "population": 96
+  },
+  {
+    "name": "Buies Creek",
+    "type": "cdp",
+    "county": "Harnett",
+    "distance_miles": 22,
+    "population": 3253
+  },
+  {
+    "name": "Autryville",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 25,
+    "population": 195
+  },
+  {
+    "name": "Roseboro",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 25,
+    "population": 1183
+  },
+  {
+    "name": "St. Pauls",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 25,
+    "population": 2045
+  },
+  {
+    "name": "Coats",
+    "type": "town",
+    "county": "Harnett",
+    "distance_miles": 25,
+    "population": 2392
+  },
+  {
+    "name": "Dunn",
+    "type": "city",
+    "county": "Harnett",
+    "distance_miles": 25,
+    "population": 9684
+  },
+  {
+    "name": "Dundarrach",
+    "type": "cdp",
+    "county": "Hoke",
+    "distance_miles": 25,
+    "population": 34
+  },
+  {
+    "name": "Silver City",
+    "type": "cdp",
+    "county": "Hoke",
+    "distance_miles": 25,
+    "population": 350
+  },
+  {
+    "name": "Angier",
+    "type": "town",
+    "county": "Harnett",
+    "distance_miles": 30,
+    "population": 5494
+  },
+  {
+    "name": "Newton Grove",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 30,
+    "population": 563
+  },
+  {
+    "name": "Salemburg",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 30,
+    "population": 482
+  },
+  {
+    "name": "Vass",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 30,
+    "population": 978
+  },
+  {
+    "name": "Cameron",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 30,
+    "population": 247
+  },
+  {
+    "name": "White Lake",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 30,
+    "population": 742
+  },
+  {
+    "name": "Shannon",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 30,
+    "population": 450
+  },
+  {
+    "name": "Barbecue",
+    "type": "cdp",
+    "county": "Harnett",
+    "distance_miles": 30,
+    "population": 650
+  },
+  {
+    "name": "Broadway",
+    "type": "town",
+    "county": "Lee",
+    "distance_miles": 32,
+    "population": 1286
+  },
+  {
+    "name": "Southern Pines",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 35,
+    "population": 15545
+  },
+  {
+    "name": "Pinehurst",
+    "type": "village",
+    "county": "Moore",
+    "distance_miles": 35,
+    "population": 17581
+  },
+  {
+    "name": "Aberdeen",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 35,
+    "population": 9096
+  },
+  {
+    "name": "Whispering Pines",
+    "type": "village",
+    "county": "Moore",
+    "distance_miles": 35,
+    "population": 5113
+  },
+  {
+    "name": "Pinebluff",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 35,
+    "population": 1499
+  },
+  {
+    "name": "Taylortown",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 35,
+    "population": 647
+  },
+  {
+    "name": "Tar Heel",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 35,
+    "population": 117
+  },
+  {
+    "name": "Elizabethtown",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 35,
+    "population": 3378
+  },
+  {
+    "name": "Pembroke",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 35,
+    "population": 2803
+  },
+  {
+    "name": "Lumberton",
+    "type": "city",
+    "county": "Robeson",
+    "distance_miles": 35,
+    "population": 18882
+  },
+  {
+    "name": "Clinton",
+    "type": "city",
+    "county": "Sampson",
+    "distance_miles": 35,
+    "population": 8280
+  },
+  {
+    "name": "Plain View",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 35,
+    "population": 1923
+  },
+  {
+    "name": "Wagram",
+    "type": "town",
+    "county": "Scotland",
+    "distance_miles": 35,
+    "population": 815
+  },
+  {
+    "name": "Seven Lakes",
+    "type": "cdp",
+    "county": "Moore",
+    "distance_miles": 38,
+    "population": 4265
+  },
+  {
+    "name": "Prospect",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 38,
+    "population": 873
+  },
+  {
+    "name": "Red Springs",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 40,
+    "population": 3094
+  },
+  {
+    "name": "Maxton",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 40,
+    "population": 2104
+  },
+  {
+    "name": "Laurinburg",
+    "type": "city",
+    "county": "Scotland",
+    "distance_miles": 40,
+    "population": 15137
+  },
+  {
+    "name": "Carthage",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 40,
+    "population": 2841
+  },
+  {
+    "name": "Foxfire Village",
+    "type": "village",
+    "county": "Moore",
+    "distance_miles": 40,
+    "population": 1323
+  },
+  {
+    "name": "Bladenboro",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 40,
+    "population": 1697
+  },
+  {
+    "name": "East Arcadia",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 40,
+    "population": 531
+  },
+  {
+    "name": "Garland",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 40,
+    "population": 613
+  },
+  {
+    "name": "East Laurinburg",
+    "type": "cdp",
+    "county": "Scotland",
+    "distance_miles": 40,
+    "population": 432
+  },
+  {
+    "name": "Barker Ten Mile",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 42,
+    "population": 937
+  },
+  {
+    "name": "Orrum",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 42,
+    "population": 71
+  },
+  {
+    "name": "Rennert",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 42,
+    "population": 276
+  },
+  {
+    "name": "Sanford",
+    "type": "city",
+    "county": "Lee",
+    "distance_miles": 45,
+    "population": 31478
+  },
+  {
+    "name": "Fairmont",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 45,
+    "population": 2185
+  },
+  {
+    "name": "Turkey",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 45,
+    "population": 302
+  },
+  {
+    "name": "Harrells",
+    "type": "town",
+    "county": "Sampson",
+    "distance_miles": 45,
+    "population": 189
+  },
+  {
+    "name": "Dublin",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 45,
+    "population": 289
+  },
+  {
+    "name": "Jackson Springs",
+    "type": "cdp",
+    "county": "Moore",
+    "distance_miles": 45,
+    "population": 154
+  },
+  {
+    "name": "Deercroft",
+    "type": "cdp",
+    "county": "Scotland",
+    "distance_miles": 45,
+    "population": 414
+  },
+  {
+    "name": "Old Hundred",
+    "type": "cdp",
+    "county": "Scotland",
+    "distance_miles": 45,
+    "population": 218
+  },
+  {
+    "name": "Elrod",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 45,
+    "population": 391
+  },
+  {
+    "name": "Proctorville",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 48,
+    "population": 117
+  },
+  {
+    "name": "McDonald",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 48,
+    "population": 92
+  },
+  {
+    "name": "Raynham",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 48,
+    "population": 138
+  },
+  {
+    "name": "Marietta",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 48,
+    "population": 107
+  },
+  {
+    "name": "Clarkton",
+    "type": "town",
+    "county": "Bladen",
+    "distance_miles": 50,
+    "population": 660
+  },
+  {
+    "name": "Robbins",
+    "type": "town",
+    "county": "Moore",
+    "distance_miles": 50,
+    "population": 1198
+  },
+  {
+    "name": "Rowland",
+    "type": "town",
+    "county": "Robeson",
+    "distance_miles": 50,
+    "population": 884
+  },
+  {
+    "name": "Gibson",
+    "type": "town",
+    "county": "Scotland",
+    "distance_miles": 50,
+    "population": 456
+  },
+  {
+    "name": "Laurel Hill",
+    "type": "cdp",
+    "county": "Scotland",
+    "distance_miles": 50,
+    "population": 1121
+  },
+  {
+    "name": "Kelly",
+    "type": "cdp",
+    "county": "Bladen",
+    "distance_miles": 52,
+    "population": 446
+  },
+  {
+    "name": "Butters",
+    "type": "cdp",
+    "county": "Bladen",
+    "distance_miles": 55,
+    "population": 250
+  },
+  {
+    "name": "Keener",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 55,
+    "population": 540
+  },
+  {
+    "name": "Ingold",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 55,
+    "population": 416
+  },
+  {
+    "name": "Ivanhoe",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 55,
+    "population": 198
+  },
+  {
+    "name": "Delway",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 55,
+    "population": 150
+  },
+  {
+    "name": "Bonnetsville",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 55,
+    "population": 318
+  },
+  {
+    "name": "Spiveys Corner",
+    "type": "cdp",
+    "county": "Sampson",
+    "distance_miles": 55,
+    "population": 85
+  },
+  {
+    "name": "Wakulla",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 58,
+    "population": 320
+  },
+  {
+    "name": "Rex",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 58,
+    "population": 185
+  },
+  {
+    "name": "Raemon",
+    "type": "cdp",
+    "county": "Robeson",
+    "distance_miles": 58,
+    "population": 210
+  }
+]
